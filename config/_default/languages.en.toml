@@ -1,13 +1,14 @@
 # config/_default/languages.en.toml
 
-title = "My awesome website"
+title = "Brian Vu"
 
 [author]
-name = "My name"
+name = "Brian Vu"
 image = "img/author.jpg"
-headline = "A generally awesome human"
+headline = "Software Developer"
 bio = "A little bit about me"
 links = [
-  { twitter = "https://twitter.com/username" }
+  { linkedin = "https://www.linkedin.com/in/brian-vu-525898108/" },
+  { github = "https://github.com/bvu12" },
+  { email = "mailto:brian.vu12@gmail.com" }
 ]
-
