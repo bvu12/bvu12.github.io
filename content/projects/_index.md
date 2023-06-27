@@ -7,4 +7,5 @@ cascade:
   showDate: true
   showReadingTime: true
   showTableOfContents: true
+  showAuthor: false
 ---
