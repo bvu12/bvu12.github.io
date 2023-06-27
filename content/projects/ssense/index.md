@@ -13,7 +13,7 @@ Check out the code on [Github](https://github.com/bvu12/ssense-game) or play the
 
 A webgame where the user guesses which article of designer clothing is more expensive.
 
-![Demo of the game](ssense.gif)
+![Demo of the game](https://raw.githubusercontent.com/bvu12/bvu12.github.io/master/content/projects/ssense/ssense.gif)
 
 
 ## Learning objectives

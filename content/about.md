@@ -4,6 +4,7 @@ description: "Brian's biography."
 showAuthor: true
 showReadingTime: false
 showDate: false
+showPagination: false
 ---
 I am a **second-degree student** studying Computer Science at the University of British Columbia.
 I love learning about and crafting elegant solutions to complex problems, collaborating in cross-functional teams, and seeing my work have a real-world impact.
