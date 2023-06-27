@@ -4,7 +4,7 @@ date: 2023-06-25
 draft: false
 icon: ssense
 description: "A webgame where the user guesses which article of designer clothing is more expensive."
-internalUrl: /projects/ssense/
+internalUrl: /projects/higher-or-lower/
 weight: 10
 ---
 {{< alert "github" >}}
