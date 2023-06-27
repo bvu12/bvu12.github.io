@@ -13,6 +13,8 @@ Check out the code on [Github](https://github.com/bvu12/ssense-game) or play the
 
 A webgame where the user guesses which article of designer clothing is more expensive.
 
+![Demo of the game](ssense.gif)
+
 
 ## Learning objectives
 I set off on developing this project to meet a few goals:
@@ -30,10 +32,23 @@ I set off on developing this project to meet a few goals:
 
 ## How does it work
 ### Backend
-{{< badge >}}
-Write-up in progress...
-{{< /badge >}}
+On page load, a few products are randomly fetched from our `MongoDB` database into a list. To improve performance, subsequent products are periodically fetched in the background as the user gets more correct answers.
+
 ### Frontend
-{{< badge >}}
-Write-up in progress...
-{{< /badge >}}
+Two cards are initially displayed side-by-side on the screen, when the user correctly selects the more expensive product we increment the state of a counter variable. This `setState` operation slides down along our product array and re-renders the next product. When you incorrectly select a product, the `Gameover` screen shows and places all `products[0...n]` into a carousel.  
+
+We have the ability to restart the game over again by calling our `startGame` function:
+```typescript jsx
+const startGame = (productAPISuffix: string) => {
+  setIsLoading(true);
+  fetchProducts(productAPISuffix).then(() => {
+    setGameType(productAPISuffix);
+    setScore((prevScore) => ({
+      currentScore: 0,
+      hiScore: prevScore.hiScore,
+    }));
+    setIsGameOver(false);
+    setIsLoading(false);
+  });
+};
+```
