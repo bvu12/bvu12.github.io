@@ -9,7 +9,7 @@ weight: 20
 ---
 
 {{< alert "github" >}}
-Check out the code on [Github](https://github.com/cartiervu/Type-Racer) or ~~play the game for yourself [here](https://blissful-joliot-5397ba.netlify.app/)~~ (redeployment is in progress)!
+Check out the code on [Github](https://github.com/cartiervu/Type-Racer) or play the game for yourself [here](https://blissful-joliot-5397ba.netlify.app/)!
 {{< /alert >}}
 
 A minimalistic typing challenge featuring various typing modes and a global leaderboard.
