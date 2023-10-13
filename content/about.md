@@ -4,6 +4,7 @@ description: "Brian's biography."
 showAuthor: true
 showDate: false
 showReadingTime: false
+showPagination: false
 ---
 
 I am a **second-degree student** studying Computer Science at the University of British Columbia.

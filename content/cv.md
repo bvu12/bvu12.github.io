@@ -12,7 +12,7 @@ showTableOfContents: true
 :construction: Under construction :construction:
 {{< /lead >}}
 
-{{< button href="/Brian Vu - Resume.pdf" target="_self" download="Brian Vu - Resume.pdf">}}
+{{< button href="/Brian Vu.pdf" target="_self" download="Brian_Vu_resume.pdf">}}
 Download resume as .pdf
 {{< /button >}}
 
